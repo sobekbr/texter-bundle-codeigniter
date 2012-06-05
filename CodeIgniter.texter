@@ -1,0 +1,264 @@
+CodeIgniter
+anchor
+anchor('%|', '', '') 
+anchorpopup
+anchor_popup('%|', '', '') 
+autolink
+$str = auto_link(%|, 'both', TRUE);
+baseurl
+base_url() 
+begincontroller
+::scr::<?php if ( {!} defined('BASEPATH')) exit('No direct script access allowed');%bundlebreak%bundlebreakclass  extends CI_Controller%bundlebreak{{}%bundlebreak%bundlebreak{TAB}function __construct()%bundlebreak{{}%bundlebreak{TAB}parent::__construct();%bundlebreak{BS}{}}%bundlebreak%bundlebreakpublic function index()%bundlebreak{{}%bundlebreak{}}%bundlebreak%bundlebreak{BS}{}}%bundlebreak{UP}{UP}{UP}{UP}{UP}{UP}{UP}{UP}{UP}{UP}{UP}{UP}{UP}{UP}{HOME}{RIGHT}{RIGHT}{RIGHT}{RIGHT}{RIGHT}{RIGHT}{RIGHT}
+beginmodel
+::scr::<?php%bundlebreak%bundlebreakclass _model extends CI_Model%bundlebreak{{}%bundlebreak%bundlebreak{TAB}function __construct()%bundlebreak{{}%bundlebreak{TAB}parent::__construct();%bundlebreak{BS}{}}%bundlebreak%bundlebreak{BS}{}}%bundlebreak{UP}{UP}{UP}{UP}{UP}{UP}{UP}{UP}{UP}{HOME}{RIGHT}{RIGHT}{RIGHT}{RIGHT}{RIGHT}{RIGHT}
+beginmodel.crud
+::scr::<?php%bundlebreak%bundlebreakclass _model extends CI_Model%bundlebreak{{}%bundlebreak%bundlebreak{TAB}function __construct()%bundlebreak{{}%bundlebreak{TAB}parent::__construct();%bundlebreak{BS}{}}%bundlebreak%bundlebreakfunction create()%bundlebreak{{}%bundlebreak{}}%bundlebreak%bundlebreakfunction read($id)%bundlebreak{{}%bundlebreak{}}%bundlebreak%bundlebreakfunction update($id, $data)%bundlebreak{{}%bundlebreak{}}%bundlebreak%bundlebreakfunction delete($id)%bundlebreak{{}%bundlebreak{}}%bundlebreak%bundlebreak{BS}{}}%bundlebreak{UP}{UP}{UP}{UP}{UP}{UP}{UP}{UP}{UP}{UP}{UP}{UP}{UP}{UP}{UP}{UP}{UP}{UP}{UP}{UP}{UP}{UP}{UP}{UP}{UP}{UP}{HOME}{RIGHT}{RIGHT}{RIGHT}{RIGHT}{RIGHT}{RIGHT}{RIGHT}
+br
+echo br(%|);
+configitem
+$this->config->item('%|') 
+configload
+$this->config->load('%|');
+currenturl
+current_url() 
+dbaffectedrows
+$this->db->affected_rows()
+dbcachedelete
+$this->db->cache_delete();
+dbcachedeleteall
+$this->db->cache_delete_all();
+dbcacheoff
+$this->db->cache_off();
+dbcacheon
+$this->db->cache_on();
+dbcallfunction
+$this->db->call_function('%|', $param1, $param2, ...);
+dbclose
+$this->db->close();
+dbconnid
+$db = $this->db->conn_id;
+dbcountall
+$this->db->count_all('%|')
+dbcountallresults
+$this->db->count_all_results('%|');
+dbdelete
+$this->db->delete('%|', $where);
+dbdistinct
+$this->db->distinct('%|');
+dbemptytable
+$this->db->empty_table('%|');
+dbescape
+$this->db->escape('%|')
+dbescapelike
+$this->db->escape_like_str('%|')
+dbfielddata
+$fields = $this->db->field_data('%|');
+dbfieldexists
+$this->db->field_exists('%|', '[tablename]')
+dbflushcache
+$this->db->flush_cache();
+dbfrom
+$this->db->from('%|');
+dbget
+$this->db->get('%|');
+dbgetwhere
+$this->db->get_where('%|', $where);
+dbgroupby
+$this->db->group_by('%|');
+dbhaving
+$this->db->having('%|');
+dbinsert
+$this->db->insert(%|);
+dbinsertbatch
+$this->db->insert_batch('%|', $data);
+dbinsertid
+$this->db->insert_id()
+dbinsertstring
+$sql = $this->db->insert_string('%|', $data);
+dbjoin
+$this->db->join('%|', '[join_on]');
+dblastquery
+$this->db->last_query()
+dblike
+$this->db->like('%|', '%match%');
+dblimit
+$this->db->limit(%|);
+dblistfields
+$fields = $this->db->list_fields('%|');
+dblisttables
+$tables = $this->db->list_tables();
+dbnotlike
+$this->db->not_like('%|', '%match%');
+dborderby
+$this->db->order_by('%|');
+dborhaving
+$this->db->or_having('%|');
+dborlike
+$this->db->or_like('%|', '%match%');
+dbornotlike
+$this->db->or_not_like('%|', '%match%');
+dborwhere
+$this->db->or_where('%|', $value);
+dborwherein
+$this->db->or_where_in('%|', $list);
+dborwherenotin
+$this->db->or_where_not_in('%|', $list);
+dbplatform
+$this->db->platform()
+dbquery
+$q = $this->db->query('%|');
+dbselect
+$this->db->select('%|');
+dbselectavg
+$this->db->select_avg('%|');
+dbselectmax
+$this->db->select_max('%|');
+dbselectmin
+$this->db->select_min('%|');
+dbselectsum
+$this->db->select_sum('%|');
+dbset
+$this->db->set('%|', $value);
+dbsimplequery
+$this->db->simple_query('%|');
+dbstartcache
+$this->db->start_cache();
+dbstopcache
+$this->db->stop_cache();
+dbtablexists
+$this->db->table_exists('%|')
+dbtransbegin
+$this->db->trans_begin();
+dbtranscommit
+$this->db->trans_commit();
+dbtranscomplete
+$this->db->trans_complete();
+dbtransoff
+$this->db->trans_off();
+dbtransrollback
+$this->db->trans_rollback();
+dbtransstart
+$this->db->trans_start();
+dbtransstatus
+$this->db->trans_status()
+dbtruncate
+$this->db->truncate('%|');
+dbupdate
+$this->db->update('%|', $data);
+dbupdatebatch
+$this->db->update_batch('%|', $data);
+dbupdatestring
+$sql = $this->db->update_string('%|', %data, $where);
+dbversion
+$this->db->version()
+dbwhere
+$this->db->where('%|', $value);
+dbwherein
+$this->db->where_in('%|', $list);
+dbwherenotin
+$this->db->where_not_in('%|', $list);
+doctype
+echo doctype('%|'); // default: xhtml1-strict
+foreach
+::scr::foreach (  )%bundlebreak{{}%bundlebreak{TAB}%bundlebreak{BS}{}}%bundlebreak{UP}{UP}{UP}{UP}{HOME}{RIGHT}{RIGHT}{RIGHT}{RIGHT}{RIGHT}{RIGHT}{RIGHT}{RIGHT}{RIGHT}{RIGHT}
+formbutton
+echo form_button('%|', '[content]');
+formcheckbox
+echo form_checkbox('%|', '[value]', TRUE);
+formclose
+echo form_close();
+formdropdown
+echo form_dropdown('%|', $options, '[default]');
+formfieldset
+echo form_fieldset('%|');
+formfieldset.close
+echo form_fieldset_close();
+formhidden
+echo form_hidden('%|');
+forminput
+echo form_input('%|');
+formlabel
+echo form_label('%|', '[for]');
+formmultipart
+<?php echo form_open_multipart('%|'); ?>
+formmultiselect
+echo form_multiselect('%|[]', $options, '[defaults]');
+formopen
+<?php echo form_open('%|'); ?>
+formpassword
+echo form_password('%|');
+formprep
+echo form_prep(%|);
+formradio
+echo form_radio('%|', '[value]', TRUE);
+formreset
+echo form_reset('%|', '[value]');
+formsubmit
+echo form_submit('%|', '[value]');
+formtextarea
+echo form_textarea('%|');
+formupload
+echo form_upload('%|');
+heading
+echo heading('%|', [size]);
+if
+::scr::if (  )%bundlebreak{{}%bundlebreak{TAB}%bundlebreak{BS}{}}%bundlebreak{UP}{UP}{UP}{UP}{HOME}{RIGHT}{RIGHT}{RIGHT}{RIGHT}{RIGHT}
+img
+echo img('%|');
+indexpage
+index_page() 
+linktag
+echo link_tag('%|');
+loaddatabase
+$this->load->database('%|');
+loadhelper
+$this->load->helper('%|');
+loadmodel
+$this->load->model('%|');
+loadview
+$this->load->view('%|');
+loadview.data
+$this->load->view('%|', $data);
+mailto
+mailto('%|', '') 
+meta
+echo meta('%|', '[content]', 'name');
+nbs
+echo nbs(%|);
+ol
+echo ol($list%|, $attr);
+prepurl
+prep_url(%|) 
+qfreeresult
+$q->free_result()
+qnumfields
+$q->num_fields()
+qnumrows
+$q->num_rows()
+redirect
+redirect('%|');
+safemailto
+safe_mailto('%|', '') 
+setcheckbox
+echo set_checkbox('%|', '[value]', TRUE);
+setradio
+echo set_radio('%|', '[value]', TRUE);
+setselect
+echo set_select('%|', '[value]', TRUE);
+setvalue
+echo set_value('%|', '[value]');
+siteurl
+site_url('%|') 
+systemurl
+$this->config->system_url() 
+ul
+echo ul($list%|, $attr);
+uristring
+uri_string() 
+urltitle
+url_title(%|) 
+¢Triggers¢
+
+6369636963696c6f616468656c706572,6c6f61646d6f64656c,6c6f616476696577,626567696e636f6e74726f6c6c6572,626567696e6d6f64656c,626567696e6d6f64656c2e63727564,6462696e73657274,64626f726465726279,6462676574,666f726d68696464656e,6c6f6164766965772e64617461,666f726d696e707574,666f726d70617373776f7264,666f726d75706c6f6164,666f726d7465787461726561,666f726d64726f70646f776e,666f726d6d756c746970617274,666f726d6d756c746973656c656374,666f726d6669656c64736574,666f726d6669656c647365742e636c6f7365,666f726d636c6f7365,666f726d6f70656e,66666f726d726164696f,666f726d7375626d6974,666f726d6c6162656c,666f726d7265736574,666f726d627574746f6e,666f726d70726570,73657476616c7565,73657473656c656374,736574636865636b626f78,736574726164696f,6272,68656164696e67,696d67,6c696e6b746167,6e6273,6f6c,756c,6d657461,646f6374797065,6c6f61646461746162617365,6462636c6f7365,64627175657279,646273696d706c657175657279,6462657363617065,64626573636170656c696b65,666f7265616368,6966,7166726565726573756c74,71716462696e736572746964,64626166666563746564726f7773,6462636f756e74616c6c,6462706c6174666f726d,646276657273696f6e,64626c6173747175657279,6462696e73657274737472696e67,6462757064617465737472696e67,64646464646273656c65637473756d,646266726f6d,64626a6f696e,64627768657265,64626f727768657265,64627768657265696e,64626f727768657265696e,646277686572656e6f74696e,64626f7277686572656e6f74696e,64626c696b65,64626f726c696b65,64626e6f746c696b65,64626f726e6f746c696b65,646267726f75706279,646264697374696e6374,6462686176696e67,64626f72686176696e67,64626c696d6974,6462636f756e74616c6c726573756c7473,6462696e736572746261746368,6462736574,6462757064617465,64627570646174656261746368,646264656c657465,6462656d7074797461626c65,64627472756e63617465,646273746172746361636865,646273746f706361636865,6462666c7573686361636865,64627472616e737374617274,64627472616e73636f6d706c657465,64627472616e73737461747573,64627472616e736f6666,64627472616e73626567696e,64627472616e73726f6c6c6261636b,64627472616e73636f6d6d6974,64626c6973747461626c6573,64627461626c657869737473,64626c6973746669656c6473,64626669656c64657869737473,64626669656c6464617461,646263616c6c66756e6374696f6e,64646462636f6e6e6964,6462636f6e6e6964,646263616368656f6e,646263616368656f6666,6462636163686564656c657465,6462636163686564656c657465616c6c,7369746575726c,6263757272656e7475726c,757269737472696e67,696e64657870616765,616e63686f72,616e63686f72706f707570,6d61696c746f,736166656d61696c746f,6175746f6c696e6b,75726c7469746c65,7072657075726c,7265646972656374,636f6e6669676c6f6164,636f6e6669676974656d,73797374656d75726c,
+
+
